@@ -10,14 +10,24 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/AryanPatole1972/The-Book-Nook.git"
+=======
+    "url": "git+https://github.com/RiyaBhatta/ebook.git"
+>>>>>>> 638cb71217d54321e2ed4a2c054c950148837bbe
   },
   "author": "Riya",
   "license": "ISC",
   "bugs": {
+<<<<<<< HEAD
     "url": "https://github.com/AryanPatole1972/The-Book-Nook/issues"
   },
   "homepage": "https://github.com/AryanPatole1972/The-Book-Nook#readme",
+=======
+    "url": "https://github.com/RiyaBhatta/ebook/issues"
+  },
+  "homepage": "https://github.com/RiyaBhatta/ebook#readme",
+>>>>>>> 638cb71217d54321e2ed4a2c054c950148837bbe
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",

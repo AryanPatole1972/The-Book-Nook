@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import banner from "../../public/Banner.png";
 function Banner() {
   return (
@@ -36,6 +37,34 @@ function Banner() {
             className="md:w-[550px] md:h-[460px] md:ml-12"
             alt=""
           />
+=======
+import OIP from "../../public/OIP.jpeg"
+import { Link } from "react-router-dom";
+
+function Banner() {
+  return (
+    <>
+      <div className="max-w-screen-2x1 container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10">
+        <div className="w-full order-2 md:order-1 md:w-1/2 mt-12 md:mt-32">
+         <div className="space-y-12">
+          <h1 className="text-4xl font-bold">
+            Hello, Pick your Favourite{" "}
+            <span className="text-pink-400"> Books Here !!!!</span>{" "}
+          </h1>
+          <p className="text-xl">
+            Discover a world of stories at our online bookstore, where every
+            page turns into an adventure. Browse thousands of titles across
+            genres, from timeless classics to the latest bestsellers. Enjoy fast
+            delivery, great deals, and a cozy reading experience from the
+            comfort of your home.
+          </p>
+          <input type="text" placeholder="Type your email here" className="input" />
+        </div>
+        <button className="btn mt-5 btn-secondary">Get Started</button>
+        </div>
+        <div className="w-full md:w-1/2 mt-12 md:mt-32 md:ml-15 order-1">
+        <img src={OIP} className="w-120 h-92" alt="" />
+>>>>>>> 638cb71217d54321e2ed4a2c054c950148837bbe
         </div>
       </div>
     </>
