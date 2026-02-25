@@ -19,7 +19,7 @@ function Login() {
 
     try {
       const res = await axios.post(
-        "https://the-book-nook-98fo.vercel.app/user/login",
+        "https://the-book-nook-98fo.vercel.app/users/login",
         userInfo
       );
 
