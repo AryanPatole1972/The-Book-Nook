@@ -16,9 +16,15 @@ app.use(express.json());
 const URI = process.env.MongoDBURI;
 
 // connect to mongoDB
-mongoose.connect(URI)
-    .then(() => console.log("Connected to MongoDB"))
-    .catch((error) => console.log("Error:", error));
+try {
+    mongoose.connect(URI, {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+    });
+    console.log("Connected to mongoDB");
+} catch (error) {
+    console.log("Error: ", error);
+}
 
 // routes
 app.use("/book", bookRoute);
