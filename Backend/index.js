@@ -22,6 +22,6 @@ mongoose.connect(URI)
 
 // routes
 app.use("/book", bookRoute);
-app.use("/user", userRoute);
+app.use("/users", userRoute);
 
 export default app; // 👈 VERY IMPORTANT
