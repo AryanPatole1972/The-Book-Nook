@@ -10,7 +10,7 @@ function Course() {
   useEffect(() => {
     const getBook = async()=>{
       try {
-        const res = await axios.get("https://the-book-nook-baackend.onrender.com/book");
+        const res = await axios.get("https://the-book-nook-98fo.vercel.app/book");
         console.log(res.data)
         setBook(res.data)
       } catch (error) {

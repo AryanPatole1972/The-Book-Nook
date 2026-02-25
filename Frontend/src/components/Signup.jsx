@@ -18,7 +18,7 @@ function Signup() {
           email: data.email,
           password: data.password
         }
-        await axios.post("https://the-book-nook-baackend.onrender.com/users/signup", userInfo)
+        await axios.post("https://the-book-nook-98fo.vercel.app/users/signup", userInfo)
         .then((res)=>{
           console.log(res.data)
           if(res.data){
